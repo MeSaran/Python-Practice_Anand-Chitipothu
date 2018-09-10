@@ -1,0 +1,5 @@
+The second argument to open is optional, which defaults to 'r' when not specified.
+
+Unix does not distinguish binary files from text files but windows does. On windows 'rb', 'wb', 'ab' should be used to open a binary file in read, write and append mode respectively.
+
+Easiest way to read contents of a file is by using the read method.
